@@ -19,10 +19,12 @@
 .emptySpace{
     width: 300px;
     height: 970px;
-    background-color: #4b5563;;
+    background-color: darkslategrey;;
 }
-.form{
+.form-section{
     margin-right: auto;
+    display: flex;
+    flex-direction: column;
 }
 .frog{
     
@@ -49,3 +51,41 @@
     font-size: 50px;
     
 }
+.btn{
+    margin-top: 40px;
+    margin-left: 40px;
+    display: flex;  
+    flex-direction: column;
+    gap: 20px;
+}
+
+.underBtn{
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+button{
+    width: 250px;
+    height: 60px;
+    border-radius: 15px;
+    border-width: 1px;
+    background-color: green;
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.container1, .container2 , .container3{
+    flex-grow: 1;
+}
+.container1, .container3{
+    background-color: beige;
+    margin: 0;
+    
+}
+
+.upperText{
+    
+}
+
+
